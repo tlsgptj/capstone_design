@@ -19,18 +19,32 @@
         android:textSize="70dp" />
 
     <TextView
+        android:id="@+id/secondText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Go anywhere Do everything"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="70dp"
         android:textSize="20dp" />
 
     <TextView
+        android:id="@+id/thirdText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="90dp"
         android:gravity="center"
         android:text="while your hands FREE"
         android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/Trip"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/trip"/>
+
 
 
 </FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For your health"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="height"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weight"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="키를 입력하세요"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="120dp"/>
+
+
+
+</FrameLayout>
